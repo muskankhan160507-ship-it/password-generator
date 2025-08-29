@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>passGen</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="head">Random Password Generator</h1>
+    <!-- <div id="passbox">
+    <input id="input1" type="username" placeholder="Username">
+    <input id="input2" type="password" placeholder="Password">
+    </div> -->
+    <p class="title">instantly create strong and secure passwords to keep your account safe online.</p>
+    <img src="https://www.avast.com/content/dam/avast/illustrations/Password-Generator-5.svg" alt="">
+    <div id="passgen">
+        <div>
+            <h3 id="pass"> </h3>
+            <button id="btn"><i class="ri-restart-line"></i> </button>
+        </div>
+        <button>Copy</button>
+        <form>
+            <h3>Characters used :</h3>
+            <input type="checkbox" id="ABC" name="pass" class="option" value="ABC">
+            <label for="ABC">ABC</label>
+            <input type="checkbox" id="abc" name="pass" class="option" value="abc">
+            <label for="abc">abc</label>
+            <input type="checkbox" id="num" name="pass" class="option" value="123">
+            <label for="spl">#$&</label>
+            <input type="checkbox" id="#$&" name="pass" class="option" value="#$&">
+            <label for="#$&">#$&</label>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
